@@ -6,7 +6,6 @@ public class AIMovement : MonoBehaviour
 {
     public float speed;
     public Transform pallo;
-    //private float of;
 
     void Awake()
     {
