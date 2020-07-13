@@ -23,12 +23,12 @@ public class BallMovement : MonoBehaviour
     {
         if (Settings.difficulty == Difficulty.Normal)
         {
-            speed *= 2f;
-            maxVerticalSpeed *= 2f;
+            speed *= 1.5f;
+            maxVerticalSpeed *= 1.5f;
         }
         else if (Settings.difficulty == Difficulty.Hard)
         {
-            speed *= 3f;
+            speed *= 2f;
             maxVerticalSpeed *= 2f;
         }
         if (UnityEngine.Random.Range(0f, 1f) > 0.5f)
